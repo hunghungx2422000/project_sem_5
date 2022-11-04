@@ -16,4 +16,5 @@ def insertion_sort(nums):
 # Verify it works
 random_list_of_nums = [9, 1, 15, 28, 6]  
 insertion_sort(random_list_of_nums)  
-print(random_list_of_nums) 
+for i in range(len(random_list_of_nums)): 
+    print(random_list_of_nums[i])
